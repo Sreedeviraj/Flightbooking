@@ -7,7 +7,8 @@ A simple full-stack flight booking application where users can search for flight
 ## 🔧 Tech Stack
 
 - **Frontend:** React, React-Bootstrap
-- **Backend:** JSON Server (for simulating REST API)
+- **Backend:** Node.js, Express.js, Mongoose
+- **Backend:** MongoDB Atlas (cloud-based)
 
 ---
 
@@ -31,6 +32,12 @@ A simple full-stack flight booking application where users can search for flight
 - Responsive and clean UI using Bootstrap
 
 ---
+
+🧑‍💻 Setup Instructions
+🔹 Prerequisites
+Node.js & npm installed
+
+MongoDB connection string (for .env)
 
 
 
