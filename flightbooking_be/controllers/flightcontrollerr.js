@@ -1,0 +1,1 @@
+const flights = require('../model/flightschema')
