@@ -32,11 +32,6 @@ A simple full-stack flight booking application where users can search for flight
 
 ---
 
-## 📂 Folder Structure
-
-Flightbooking/
-├── flightbooking_fe/ # React frontend
-└── flightbooking_be/ # JSON Server backend
 
 
 
