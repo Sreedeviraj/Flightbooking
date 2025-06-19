@@ -22,7 +22,7 @@ function SearchBar({ searchData, setSearchData, handleSearch }) {
                             <Form.Control
                                 name="from"
                                 placeholder="City or airport"
-                                
+                                value={searchData.from}
                                 onChange={handleChange}
                                 className="rounded-pill py-2"
                             />
@@ -34,7 +34,7 @@ function SearchBar({ searchData, setSearchData, handleSearch }) {
                             <Form.Control
                                 name="to"
                                 placeholder="City or airport"
-                                
+                                value={searchData.to}
                                 onChange={handleChange}
                                 className="rounded-pill py-2"
                             />
@@ -46,7 +46,7 @@ function SearchBar({ searchData, setSearchData, handleSearch }) {
                             <Form.Control
                                 type="date"
                                 name="depart"
-                                
+                                value={searchData.depart}
                                 onChange={handleChange}
                                 className="rounded-pill py-2"
                             />
@@ -58,7 +58,7 @@ function SearchBar({ searchData, setSearchData, handleSearch }) {
                             <Form.Control
                                 type="date"
                                 name="return"
-                                
+                                value={searchData.return}
                                 onChange={handleChange}
                                 className="rounded-pill py-2"
                             />
