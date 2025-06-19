@@ -13,3 +13,16 @@ exports.addflight= async (req, res) => {
         res.status(500).json({ error: "Failed to add task" });
     }
 }
+
+//controller function to get flight
+exports.getflight = async (req, res) => {
+  console.log("inside getflight function");
+  try {
+    const allflightlist = await flights.find();
+    console.log("Fetched flights:", allflightlist); 
+    res.status(200).json(allflightlist);
+  } catch (error) {
+    console.error("Error fetching flights:", error);
+    res.status(400).json({ error: error.message });
+  }
+};
